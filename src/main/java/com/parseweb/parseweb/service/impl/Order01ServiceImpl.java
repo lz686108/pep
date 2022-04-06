@@ -1,0 +1,20 @@
+package com.parseweb.parseweb.service.impl;
+
+import com.parseweb.parseweb.entity.Order01;
+import com.parseweb.parseweb.mapper.Order01Mapper;
+import com.parseweb.parseweb.service.IOrder01Service;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.springframework.stereotype.Service;
+
+/**
+ * <p>
+ *  服务实现类
+ * </p>
+ *
+ * @author lizhen
+ * @since 2021-11-29
+ */
+@Service
+public class Order01ServiceImpl extends ServiceImpl<Order01Mapper, Order01> implements IOrder01Service {
+
+}
